@@ -1,0 +1,15 @@
+# host|metric|value|unix_ts|tags...
+web-1|cpu|41.5|1761700012|prod|us-east
+web-1|cpu|47.0|1761700072|prod|us-east
+web-2|cpu|88.25|1761700013|prod|us-west
+web-2|mem|71.0|1761700013|prod|us-west
+web-1|mem|52.5|1761700014|prod|us-east
+probe-7|cpu|3.0|1761700015|synthetic
+web-1|cpu|39.75|1761699990|prod|us-east
+web-2|cpu|91.5|1761700073|prod|us-west
+db-1|disk|63.0
+db-1|iops|1520|1761700020|prod
+db-1|iops|1710|1761700080|prod
+probe-7|mem|11.0|1761700075|synthetic
+web-2|mem|74.5|1761700074|prod|us-west
+db-1|iops|1640|1761700140|prod

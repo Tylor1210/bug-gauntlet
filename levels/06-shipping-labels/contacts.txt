@@ -1,0 +1,6 @@
+# name;company;street;city;region;postal;country
+Priya Natarajan;;418 Alder St Apt 3;Portland;OR;97205;US
+Tomas Lindqvist;Nordhavn Logistik AB;Hamngatan 12;Stockholm;AB;111 47;SE
+;Acme;1 Main St;Springfield;IL;62701;US
+Grace O'Malley;Westport Maritime Supply & Chandlery Co.;Unit 7, Quay Road Industrial Estate, Block C;Westport;MO;F28 X2Y4;IE
+Wen Li;;88 Jiefang Rd;Hangzhou;ZJ;310009;CN

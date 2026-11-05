@@ -1,0 +1,10 @@
+t=131  401 for cy (session expired)
+t=150  401 for ava (session expired)
+t=181  401 for bo (session expired)
+
+served=9 rejected=3 evictions=3 active=4
+most recent first:
+  eli    token=tk-e1 last_seen=180
+  hal    token=tk-h1 last_seen=171
+  gil    token=tk-g1 last_seen=170
+  dee    token=tk-d1 last_seen=161

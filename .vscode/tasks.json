@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug && cmake --build build -j",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build (sanitizers)",
+      "type": "shell",
+      "command": "cmake -S . -B build-asan -DCMAKE_BUILD_TYPE=Debug -DGAUNTLET_SANITIZE=ON && cmake --build build-asan -j",
+      "group": "build",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "test current level",
+      "type": "shell",
+      "command": "bash levels/${input:level}/test.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "check all levels",
+      "type": "shell",
+      "command": "scripts/check.sh",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "level",
+      "type": "pickString",
+      "description": "Which level?",
+      "options": [
+        "01-top-sellers",
+        "02-order-totals",
+        "03-metrics-ingest",
+        "04-chat-rooms",
+        "05-frame-archiver",
+        "06-shipping-labels",
+        "07-http-router",
+        "08-session-cache"
+      ]
+    }
+  ]
+}

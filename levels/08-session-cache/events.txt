@@ -1,0 +1,21 @@
+100 login ava tk-a1
+105 login bo tk-b1
+110 login cy tk-c1
+112 request ava
+115 login dee tk-d1
+120 request bo
+121 request ava
+130 login eli tk-e1
+131 request cy
+135 request bo
+140 request dee
+141 login fay tk-f1
+150 request ava
+151 request eli
+155 logout fay
+160 login gil tk-g1
+161 request dee
+170 request gil
+171 login hal tk-h1
+180 request eli
+181 request bo

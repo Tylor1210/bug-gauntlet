@@ -1,0 +1,22 @@
+GET   /                          -> pages.home
+GET   /u/maya                    -> profiles.show_public_profile
+GET   /u/maya/links              -> profiles.list_links_for_profile
+POST  /u/maya/links              -> profiles.create_link_for_profile
+GET   /u/admin                   -> admin.dashboard_requires_auth
+DELETE /u/maya                    -> static.not_found_page
+GET   /api/v1/health             -> ops.healthcheck
+POST  /api/v2/links/17           -> api.dispatch_versioned_request
+GET   /static/css/site.css       -> static.serve_asset_from_bucket
+GET   /favicon.ico               -> static.not_found_page
+GET   /u/jonah/links             -> profiles.list_links_for_profile
+
+handler hit counts:
+     1  admin.dashboard_requires_auth
+     1  api.dispatch_versioned_request
+     1  ops.healthcheck
+     1  pages.home
+     1  profiles.create_link_for_profile
+     2  profiles.list_links_for_profile
+     1  profiles.show_public_profile
+     2  static.not_found_page
+     1  static.serve_asset_from_bucket

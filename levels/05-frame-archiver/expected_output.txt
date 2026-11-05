@@ -1,0 +1,6 @@
+decoded 48 frames (4 keyframes), mean luma 127.493
+archive manifest:
+  frame-00000.raw  64x36  adler32=e45a833d  corner=128
+  frame-00012.raw  64x36  adler32=8a5d723d  corner=244
+  frame-00024.raw  64x36  adler32=20b7803d  corner=104
+  frame-00036.raw  64x36  adler32=de0f743d  corner=220

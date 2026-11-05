@@ -1,0 +1,11 @@
+GET /
+GET /u/maya
+GET /u/maya/links
+POST /u/maya/links
+GET /u/admin
+DELETE /u/maya
+GET /api/v1/health
+POST /api/v2/links/17
+GET /static/css/site.css
+GET /favicon.ico
+GET /u/jonah/links

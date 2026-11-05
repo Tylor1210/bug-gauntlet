@@ -1,0 +1,7 @@
+accepted=10 dropped=3 malformed=1
+SERIES                  COUNT        MIN        AVG        MAX
+db-1/iops                   3    1520.00    1623.33    1710.00
+web-1/cpu                   2      41.50      44.25      47.00
+web-1/mem                   1      52.50      52.50      52.50
+web-2/cpu                   2      88.25      89.88      91.50
+web-2/mem                   2      71.00      72.75      74.50

@@ -1,0 +1,20 @@
+# daily export 2026-10-28
+order 1001 alice delivery
+item 1001 MUG-BLK 2 1450
+item 1001 TOTE-NAT 1 2200
+zone 1001 2
+order 1002 bob pickup
+item 1002 HOODIE-L 1 5900
+coupon 1002 10
+order 1003 carmen delivery
+item 1003 STICKER-5 6 350
+item 1003 STICKER-5 4 350
+zone 1003 1
+coupon 1003 15
+order 1004 dmitri pickup
+item 1004 POSTER-A2 3 1800
+item 1004 MUG-BLK 1 1450
+order 1005 erin delivery
+item 1005 CAP-RED 2 2400
+zone 1005 4
+coupon 1005 60

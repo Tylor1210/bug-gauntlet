@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug level",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/${input:level}",
+      "args": [],
+      "cwd": "${workspaceFolder}/levels/${input:level}",
+      "preLaunchTask": "build"
+    },
+    {
+      "name": "Debug level (sanitizers)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build-asan/bin/${input:level}",
+      "args": [],
+      "cwd": "${workspaceFolder}/levels/${input:level}",
+      "env": {
+        "ASAN_OPTIONS": "detect_stack_use_after_return=1:abort_on_error=1",
+        "UBSAN_OPTIONS": "print_stacktrace=1:halt_on_error=1"
+      },
+      "preLaunchTask": "build (sanitizers)"
+    },
+    {
+      "name": "Debug incidents app",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/linkpage-sim",
+      "args": ["--ops", "20000", "--threads", "1", "--seed", "42"],
+      "cwd": "${workspaceFolder}/incidents/app",
+      "preLaunchTask": "build"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "level",
+      "type": "pickString",
+      "description": "Which level?",
+      "options": [
+        "01-top-sellers",
+        "02-order-totals",
+        "03-metrics-ingest",
+        "04-chat-rooms",
+        "05-frame-archiver",
+        "06-shipping-labels",
+        "07-http-router",
+        "08-session-cache"
+      ]
+    }
+  ]
+}

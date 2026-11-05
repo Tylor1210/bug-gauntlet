@@ -1,0 +1,8 @@
+ORDER  CUSTOMER   TYPE      ITEMS        TOTAL
+1001   alice      delivery      3       $58.99
+1002   bob        pickup        1       $53.10
+1003   carmen     delivery     10       $34.74
+1004   dmitri     pickup        4       $68.50
+1005   erin       delivery      2       $67.99
+
+5 orders (2 pickup), revenue $283.32

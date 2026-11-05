@@ -1,0 +1,17 @@
+general ana /join
+general ana morning all
+general ben hey @ana
+general ana @ben welcome back
+dev chen /join
+dev chen standup in 5
+dev ana @chen I'll be late
+general ben @dara @ana lunch?
+dev eli joined from mobile
+general ana /mod ben
+dev chen /mod ana
+general fern hello @ben
+general gus first time here, hi @fern @hal
+general ben @gus welcome
+dev ana @eli @ivy can you review #42
+dev chen @jo @kai @lu onboarding today
+general hal thanks for the invite @gus

@@ -1,0 +1,7 @@
+Top 5 sellers (10 SKUs, 1 rows rejected)
+  #1  STICKER-5      52
+  #2  CAP-RED        37
+  #3  HOODIE-L       37
+  #4  TSHIRT-M       33
+  #5  KEYCHAIN       27
+Units in top 5: 186

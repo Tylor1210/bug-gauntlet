@@ -1,0 +1,15 @@
+#dev  (5 messages)
+  chen     sent=2   mentions=1   [mod]
+  ana      sent=2   mentions=0   [mod]
+  eli      sent=1   mentions=1  
+  ivy      sent=0   mentions=1  
+  jo       sent=0   mentions=1  
+  kai      sent=0   mentions=1  
+  lu       sent=0   mentions=1  
+#general  (8 messages)
+  ana      sent=2   mentions=2   [mod]
+  ben      sent=3   mentions=2   [mod]
+  dara     sent=0   mentions=1  
+  fern     sent=1   mentions=1  
+  gus      sent=1   mentions=2  
+  hal      sent=1   mentions=1  
