@@ -13,8 +13,8 @@ void Leaderboard::record(const std::string& sku, int units) {
     while (pos > 0 && entries_[pos - 1].units < units) {
         --pos;
     }
-
-    for (int i = size_; i > pos; --i) {
+    
+    for (int i = kCapacity - 1; i > pos; --i) {
         entries_[i] = entries_[i - 1];
     }
 
